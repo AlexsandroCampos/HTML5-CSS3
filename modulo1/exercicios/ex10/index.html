@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio7</title>
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <p>Você está vendo uma imagem flexível &#x1F349;</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem-p.jpeg" type="image/jpeg">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-mm.jpeg" type="image/jpeg">
+        <img src="imagens/imagem-m.jpeg" alt="">
+    </picture>
+</body>
+</html>

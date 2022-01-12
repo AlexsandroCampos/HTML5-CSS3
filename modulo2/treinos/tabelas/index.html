@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+
+    <style>
+        table, caption, th, td {
+            border: 1px solid black;
+        }
+        .nome{
+            background-color: blue;
+        }
+        .email{
+            background-color: cornflowerblue;
+        }
+        .data{
+            background-color:aqua;
+        }
+        caption{
+            background-color:pink;
+        }
+    </style>
+</head>
+<body>
+    <table>
+
+        <colgroup>
+            <col class="nome">
+            <col class="email">
+            <col class="data">
+        </colgroup>
+        <caption>Cadastro de clientes</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Data de nascimento</th>
+        </tr>
+
+        <tr>
+            <td>Alex</td>
+            <td>alex@gmail.com</td>
+            <td>2004</td>
+        </tr>
+
+        <tr>
+            <td>uva</td>
+            <td>uva@gmail.com</td>
+            <td>2020</td>
+        </tr>
+    </table>
+</body>
+</html>
