@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando o colgroup</title>
+    <style>
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        caption{
+            padding: 10px;
+            font-size: 1.3em;
+            background-color: brown;
+        }
+        .csexo{
+            background-color: rgb(151, 73, 73);
+        }
+    </style>
+</head>
+<body>
+    <h1>Usando o colgroup para estilizar colunas</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo" span="2">
+            <col class="cidade">
+        </colgroup>
+        <caption>Informações dos Usuários</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alexsandro de Souza</td>
+                <td>Masculino</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>Lucas da Silva</td>
+                <td>Masculino</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>Mariana Castanhar</td>
+                <td>Feminino</td>
+                <td>26</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="2">Total de Participantes</th>
+            <td>3</td>
+        </tfoot>
+    </table>
+</body>
+</html>
