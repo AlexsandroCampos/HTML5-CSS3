@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+    body{
+      padding: 0px;
+      margin: 0px;
+      max-width: 1440px;
+      min-width: 375px;
+      background-color: hsl(212, 45%, 89%);
+    }
+
+    .container{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      text-align: center;
+      font-family: 'Outfit', sans-serif;
+      background-color: hsl(0, 0%, 100%);
+      max-width: 350px;
+      min-width: 310px;
+      border-radius: 15px;
+      padding: 10px;
+      padding-top: 20px;
+    }
+
+    #img{
+      width: 300px;
+      border-radius: 10px;
+    }
+
+    h1{
+      color: hsl(218, 44%, 22%);
+    }
+
+    p{
+      color: hsl(220, 15%, 55%);
+      padding-bottom: 10px;
+    }
+
+    .attribution { font-size: 11px; text-align: center; margin-top: 10px; position: absolute;  left: 50%; top: 50%; transform: translate(-50%,-50%);}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <section class="container">
+    <img src="images/image-qr-code.png" alt="" id="img">
+    <h1> improve your front-end skills by building projects.</h1>
+    <p>Sean the QR code to visit Frontend Mentor and take your coding skills to the next level.</p>
+  </section>
+</body>
+</html>
